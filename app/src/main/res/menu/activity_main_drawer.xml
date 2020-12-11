@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bbc"
+            android:menuCategory="secondary"
+            android:title="BBC" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_al_jazera"
+            android:title="Al Jazera" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cnn"
+            android:menuCategory="secondary"
+            android:title="CNN" />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:icon="@drawable/ic_fox"
+            android:menuCategory="secondary"
+            android:title="Fox News" />
+        <item
+            android:id="@+id/skyNewsFregment"
+            android:icon="@drawable/ic_sky"
+            android:menuCategory="secondary"
+            android:title="Sky News" />
+        <item
+            android:id="@+id/aajTakFragment"
+            android:icon="@drawable/ic_aaj_tak"
+            android:iconTint="#F80505"
+            android:menuCategory="secondary"
+            android:title="Aaj Tak"/>
+
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:icon="@drawable/cnn"
+                android:menuCategory="secondary"
+                android:title="New York Times" />
+        </menu>
+    </item>
+
+</menu>
